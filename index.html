@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
 
 </head>
+<script  language="javascript" src="_javascript/funcoes.js"></script>
 <body>
 	<div id="interface">
 		<header id="cabecalho">
@@ -17,6 +18,13 @@
 		<img  id="icone"src="_imagens/glass-oculos-preto-peq.png"/>
 		<nav id="menu">
 			<h1>Menu Principal</h1>
+			<ul onmouseout="mudaFoto('glass-oculos-preto-peq')">
+				<li onmouseover="mudaFoto('home')" ><a href="index.html">Home<a></li>
+				<li onmouseover="mudaFoto('especificacoes')" ><a href="specs.html">Especificações</a></li>
+				<li onmouseover="mudaFoto('fotos')"><a href="fotos.html">Fotos</a></li>
+				<li onmouseover="mudaFoto('multimidia')"><a href="multimidia.html">Multimídia</a></li>
+				<li onmouseover="mudaFoto('contato')"><a href="fale-conosco.html">Fale conosco</a></li>
+			</ul>
 		</nav>
 		</header>
 
@@ -79,7 +87,7 @@
 		</aside>
 
 		<footer id="rodape">
-		<p>Copyright &copy; 2020 - by Gabriel Cesar <br/>
+		<p>Copyright &copy; 2013 - by Pablo Rocha <br/>
 		<a href="http://facebook.com/cursosemvideo" target="_blank">Facebook</a> | 
 		<a href="http://twitter.com/cursosemvideo" target="_blank">Twitter<a/> </p>
 		</footer>
